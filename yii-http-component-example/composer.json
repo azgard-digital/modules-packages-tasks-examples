@@ -1,0 +1,16 @@
+{
+    "name": "yii-http-component-example",
+    "version": "1.0.0",
+    "type": "library",
+    "description": "Http component is wrapper for sync guzzle query",
+    "require": {
+        "php": ">=5.5",
+        "yiisoft/yii": ">=1.1.15",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "HttpClient\\": "src/"
+        }
+    }
+}
